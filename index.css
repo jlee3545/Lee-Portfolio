@@ -612,7 +612,9 @@ h2 p{
     margin: none;
     padding: 0px;
 }
-
+.image_container img{
+    width: auto;
+}
 
 
 
