@@ -176,6 +176,10 @@ h3 {
     h3 {
         font-size: var(--font-size-medium);
     }
+
+    img{
+        margin-left:0px;
+    }
 }
 
 p {
@@ -183,10 +187,12 @@ p {
 }
 
 @media(max-width: 900px) {
-    p { 
+    p {
         max-width: var(--container-small-width);
     }
 }
+
+
 
 /* --------------------------------------- */
 /* ----- Buttons and Links ----- */
