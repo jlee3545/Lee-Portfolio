@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -25,8 +26,7 @@
       <nav class="nav" role="navigation">
         <ul class="nav__items">
           <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
-          <li class="nav__item"><a href="#clients" class="nav__link">Clients</a></li>
-          <li class="nav__item">
+           <li class="nav__item">
             <a href="#about" class="nav__link">About</a>
           </li>
           <li class="nav__item">
@@ -36,15 +36,15 @@
       </nav>
     </div>
     <div class="header__text-box row">
-      <div class="header__text" >
-        <div id = "header_title">
-        <h1 class="heading-primary" >
-          <!-- Replace the following name with your name -->
-          <span>Jackie Lee</span>
-        </h1>
-        <!-- Put a small paragraph about yourself -->
-        <p>A Junior Full-Stack Developer based in Pittsburgh, Pennsylvania.</p>
-      </div>
+      <div class="header__text">
+        <div id="header_title">
+          <h1 class="heading-primary">
+            <!-- Replace the following name with your name -->
+            <span>Jackie Lee</span>
+          </h1>
+          <!-- Put a small paragraph about yourself -->
+          <p>A Junior Full-Stack Developer based in Pittsburgh, Pennsylvania.</p>
+        </div>
         <a href="#contact" class="btn btn--pink">Get in touch</a>
       </div>
     </div>
@@ -58,93 +58,90 @@
       <div class="row">
         <h2>My Work
           <p>
-            Here are projects I am currently working on or have completed. These includes Capstone projects from Tech Elevator and side projects I have worked on.
+            Here are projects I am currently working on or have completed. These includes Capstone projects from Tech
+            Elevator and side projects I have worked on.
           </p>
         </h2>
         <div class="work__boxes">
 
           <!-- Each div with the work__box class is a project. -->
 
-          <div class="work__box">
-            <div class="work__text">
+            <div class="work__box" id="meal-planner">
+              <div class="work__text">
+                <h3>Meal Planner Website</h3>
+                <p>
+                  A full-stack website using a PostgreSQL database, Vue.js framework, and Java.
+                  The website was designed to be user-friendly and to make meal planning easier for users.
+                  Users can add items to their grocery lists from the recipe ingredients and easily add their
+                  own recipes to the website to share their favorites!
+                </p>
+                <!-- <div class="work__links">
+                  <a href="#" class="link__text">
+                    Visit Site <span>&rarr;</span>
+                  </a>
+                  <a href="#">
+                    <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                  </a>
+                </div> -->
 
-          </div>
-
-          <div class="work__box">
-            <div class="work__text">
-              <h3>Meal Planner Website</h3>
-              <p>
-                A full-stack website using a PostgreSQL database, Vue.js framework, and Java.
-                The website was designed to be user-friendly and to make meal planning easier for users.
-                Users can add items to their grocery lists from the recipe ingredients and easily add their
-                own recipes to the website to share their favorites!
-              </p>
-
-            </div>
-            <div id="image-container">
-            <div class="work__image-box" class="sage_photo" >
-              <img src="./images/Sage-1.png" class="sage_photo" alt="Project 1" />
-            </div>
-          </div>
-          <div class="work__links">
-            <a href="#" class="link__text">
-              Visit Site <span>&rarr;</span>
-            </a>
-            <a href="#">
-              <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
-            </a>
-          </div>
-          </div>
-
-          <div class="work__box">
-            <div class="work__text">
-              <h3>Vending Machine Project</h3>
-              <p>
-                A mini-capstone project using Java object-oriented programming. The application was created for a vending
-                machine to have a user make purchases and the vending machine owner to receive sales data.
-              </p>
-              <div id="image-container">
-
-            <div class="work__image-box">
-              <img src="./images/vending-machine.png" class="work__image" alt="Vending Machine Project" />
-            </div>
               </div>
+              <div class="image-container">
+                <div class="work__image-box" class="sage_photo">
+                  <img src="./images/Sage-1.png" class="sage_photo" alt="Project 1" />
+                </div>
+              </div>
+            </div>
+            </div>
+
+            <div class="work__box">
+              <div class="work__text">
+                <h3>Vending Machine Project</h3>
+                <p>
+                  A mini-capstone project using Java object-oriented programming. The application was created for a
+                  vending
+                  machine to have a user make purchases and the vending machine owner to receive sales data.
+                </p>
+                <div class="image-container">
+
+                  <div class="work__image-box">
+                    <img src="./images/vending-machine.png" class="work__image" alt="Vending Machine Project" />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>TEnmo Project</h3>
+              <p>
+                A server-side project using Spring Boot, SQL, and Java to create accounts and transfer money between
+                each
+                account. We verified the functionality of the endpoints crated using Postman.
+              </p>
+              <div class="image-container">
+
+                <div class="work__image-box">
+                  <img src="./images/TEnmo.png" class="work__image" alt="TEnmo Project" />
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-        </div>
 
         <div class="work__box">
           <div class="work__text">
-            <h3>TEnmo Project</h3>
+            <h3>Hangman/Wordle Project</h3>
             <p>
-              A server-side project using Spring Boot, SQL, and Java to create accounts and transfer money between each
-              account. We verified the functionality of the endpoints crated using Postman.
+              A side project coded using Java on IntelliJ using arrays and various string methods to recreate the
+              classic Hangman and Wordle game with various
+              word list themes.
             </p>
-            <div id="image-container">
+            <div class="image-container">
 
-          <div class="work__image-box">
-            <img src="./images/TEnmo.png" class="work__image" alt="TEnmo Project" />
-          </div>
+              <div class="work__image-box">
+                <img src="./images/Hangman.png" class="work__image" alt="Hangman Project" />
+              </div>
             </div>
-        </div>
-      </div>
-      </div>
-      </div>
-    </section>
-
-    <!-- ***** Clients ***** -->
-
-    <section class="client" id="clients">
-      <div class="row">
-        <h2>Clients</h2>
-        <div class="client__logos">
-          <!-- Add logos of the clients or companies you'have worked with. -->
-          <img src="./images/ronjones.png" class="client__logo" alt="Company 2" />
-          <img src="./images/goldengrid.png" class="client__logo" alt="Company 3" />
-          <img src="./images/bullseye.png" class="client__logo" alt="Company 1" />
-          <img src="./images/mighty-furnitures.png" class="client__logo" alt="Company 1" />
-          <img src="./images/fastlane.png" class="client__logo" alt="Company 3" />
-          <img src="./images/chippy.png" class="client__logo" alt="Company 1" />
+          </div>
         </div>
       </div>
     </section>
@@ -153,17 +150,24 @@
 
     <section class="about" id="about">
       <div class="row">
-        <h2>About Me</h2>
+        <div class="section-heading"><h2>About Me</h2></div>
         <div class="about__content">
           <div class="about__text">
             <!-- Replace the below paragraph with info about yourself -->
             <p>
-              I am Jackie Lee, a former educator and former Java coding bootcamp student at Tech Elevator. I have a Bachelor's Degree and a Master of Education in Teaching English as a Second Language from Duquesne University.
+              I am Jackie Lee, a former educator and former Java coding bootcamp student at Tech Elevator. I have a
+              Bachelor's Degree and a Master of Education in Teaching English as a Second Language from Duquesne
+              University.
 
-As an English Second Language Teacher at Baldwin-Whitehall School District, I supported diverse language learners, developed and implemented a user-friendly classroom website, and incorporated various online learning applications into the curriculum. Creating my classroom website sparked my interest in web development and coding, and led me to enroll in Tech Elevator. My goal is to use the skills I have acquired from Tech Elevator to become a Computer Programmer and to continue to challenge myself.
+              As an English Second Language Teacher, I supported diverse language
+              learners, developed and implemented a user-friendly classroom website, and incorporated various online
+              learning applications into the curriculum. Creating my classroom website sparked my interest in web
+              development and coding, and led me to enroll in Tech Elevator. My goal is to use the skills I have
+              acquired from Tech Elevator to become a Computer Programmer and to continue to challenge myself.
             </p>
             <!-- Provide a link to your resume -->
-            <a href="https://drive.google.com/file/d/1TMeriycQio5ORf_kru38B75PfR-D0M0p/view?usp=sharing" class="btn">My Resume</a>
+            <a href="https://drive.google.com/file/d/1TMeriycQio5ORf_kru38B75PfR-D0M0p/view?usp=sharing" class="btn">My
+              Resume</a>
           </div>
 
           <div class="about__photo-container">
@@ -182,9 +186,8 @@ As an English Second Language Teacher at Baldwin-Whitehall School District, I su
       <h2>Get in Touch</h2>
       <div class="contact__info">
         <p>
-          Are you looking for a fast-performing and user-friendly website to
-          represent your product or business? or looking for any kind of
-          consultation? or want to ask questions? or have some advice for me
+          Are you looking for a fast-performing and efficient employee to
+          represent your product or business?  or want to ask questions? or have some advice for me
           or just want to say "Hi 👋" in any case feel free to Let me know. I
           will do my best to respond back. 😊 The quickest way to reach out to
           me is via an email.
@@ -202,23 +205,14 @@ As an English Second Language Teacher at Baldwin-Whitehall School District, I su
       <!-- Update the links to point to your accounts -->
       <ul class="footer__social-links">
         <li class="footer__social-link-item">
-          <a href="https://twitter.com/nisarhassan12/" title="Link to Twitter Profile">
-            <img src="./images/twitter.svg" class="footer__social-image" alt="Twitter">
-          </a>
-        </li>
-        <li class="footer__social-link-item">
-          <a href="https://github.com/nisarhassan12/" title="Link to Github Profile">
+          <a href="https://github.com/jlee3545/" title="Link to Github Profile">
             <img src="./images/github.svg" class="footer__social-image" alt="Github">
           </a>
         </li>
         <li class="footer__social-link-item">
-          <a href="https://codepen.io/nisar_hassan" title="Link to Codepen Profile">
-            <img src="./images/codepen.svg" class="footer__social-image" alt="Codepen">
-          </a>
-        </li>
-        <li class="footer__social-link-item">
-          <a href=https://www.linkedin.com/in/nisar-hassan-naqvi-413466199/">
-            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
+          <a href="https://www.linkedin.com/in/ja-chi-jackie-lee">
+            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image"
+              alt="Linkedin">
           </a>
         </li>
       </ul>
@@ -237,7 +231,7 @@ As an English Second Language Teacher at Baldwin-Whitehall School District, I su
   </footer>
 
   <a href="#top" class="back-to-top" title="Back to Top">
-    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
+    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image" />
   </a>
   <script src="./index.js"></script>
 </body>

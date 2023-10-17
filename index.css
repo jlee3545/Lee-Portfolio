@@ -38,7 +38,9 @@
     --pink: #ff3258;
     --white: #f0e9f2;
     --white-1: #e5e5e6da;
-    --purple: rgb(172, 100, 255);
+    --purple: rgba(172, 100, 255, 0.301);
+    --blue: rgba(0, 0, 75, 0.596);
+    --darkPurple:  rgb(63, 0, 60);
 
 
     --container-max-width: 1180px;
@@ -73,7 +75,7 @@ body {
     font-weight: 400;
     color: var(--black-1);
     line-height: var(--line-height-normal);
-    background: var(--white);
+    background: var(--blue);
     overflow-x: hidden;
 }
 
@@ -114,6 +116,8 @@ section {
 img {
     object-fit: contain;
     max-width: 100%;
+    border:#000;
+    border-width: 2rem;
 }
 
 /* --------------------------------------- */
@@ -126,7 +130,7 @@ h3 {
     font-family: 'Jost', sans-serif;
     font-weight: 400;
     line-height: var(--line-height-small);
-    color: var(--black);
+    color: var(--darkPurple);
 }
 
 .heading-primary {
@@ -237,7 +241,7 @@ body:not(.user-is-tabbing) a:focus {
     top: 0;
     left: 0;
     right: 100%;
-    background: var(--white);
+    background: var(--pur);
     height: 100%;
     z-index: -1;
     transition: all 0.2s cubic-bezier(1, 0.68, 0.16, 0.9);
@@ -442,6 +446,7 @@ body:not(.user-is-tabbing) a:focus {
 
 h2 p{
     font-size: 2rem;
+    color:var(--black)
 }
 @media(max-width: 500px) {
     .header {
@@ -471,7 +476,7 @@ h2 p{
 }
 
 .work__box:not(:last-child) {
-    margin-bottom: 25rem;
+    margin-bottom: 5rem;
 }
 
 @media(max-width: 500px) {
@@ -483,6 +488,7 @@ h2 p{
 .work__links {
     display: flex;
     align-items: center;
+    margin-bottom: 1rem;
 }
 
 .work__text {
@@ -511,7 +517,14 @@ h2 p{
 }
 
 .work__image-box {
-    margin:0px;
+    margin:2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.work__image-box img{
+    border-radius: 2rem;
+    margin: 0px;
 }
 
 @media(min-width: 901px) {
@@ -557,6 +570,10 @@ h2 p{
 /* ----- About ----- */
 /* --------------------------------------- */
 
+.about{
+    background-color: #00000063;;
+}
+
 .about__content {
     display: flex;
     flex-direction: row-reverse;
@@ -580,18 +597,14 @@ h2 p{
     width:40rem;
     border-radius: 3rem;
 }
- 
-.sage_photo{
-    border-radius: 2rem;
-    margin:0px;
-}
 
-#image_container{
+.image_container{
     display: flex;
     justify-content: center;
     margin: none;
     padding: 0px;
 }
+
 
 
 
@@ -621,6 +634,7 @@ h2 p{
 .footer {
     text-align: center;
     padding: var(--gutter-medium) 0 var(--gutter-normal);
+    background-color: #00000063;
 }
 
 .footer__social-links {
@@ -653,4 +667,9 @@ h2 p{
     .footer {
         padding: var(--gutter-medium) 0;
     } 
+}
+
+
+#meal-planner{
+    margin-bottom: 5rem;
 }
