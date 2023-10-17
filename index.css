@@ -549,7 +549,14 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .about__photo-container {
+    display: flex;
     margin-bottom: var(--gutter-normal);
+    justify-content: center;
+}
+
+.about__photo{
+    width:40rem;
+    border-radius: 3rem;
 }
 
 @media(min-width: 901px) {
