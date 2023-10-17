@@ -54,7 +54,7 @@ In all of the places where you're supposed to fill your information you'll find 
         <span>Jackie Lee</span>
         </h1>
         <!-- Put a small paragraph about yourself -->
-        <p>Jackie Lee | A Web Developer based in Pittsburgh, Pennsylvania.
+        <p>A Junior Web Developer based in Pittsburgh, Pennsylvania.
 </p>
         <a href="#contact" class="btn btn--pink">Get in touch</a>
     </div>
