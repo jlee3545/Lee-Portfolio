@@ -1,2 +1,0 @@
-# Lee-Portfolio
-Projects portfolio
