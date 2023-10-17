@@ -36,13 +36,15 @@
       </nav>
     </div>
     <div class="header__text-box row">
-      <div class="header__text">
-        <h1 class="heading-primary">
+      <div class="header__text" >
+        <div id = "header_title">
+        <h1 class="heading-primary" >
           <!-- Replace the following name with your name -->
           <span>Jackie Lee</span>
         </h1>
         <!-- Put a small paragraph about yourself -->
-        <p>A Web Developer based in Pittsburgh, Pennsylvania.</p>
+        <p>A Junior Full-Stack Developer based in Pittsburgh, Pennsylvania.</p>
+      </div>
         <a href="#contact" class="btn btn--pink">Get in touch</a>
       </div>
     </div>
@@ -54,82 +56,79 @@
 
     <section class="work" id="work">
       <div class="row">
-        <h2>My Work</h2>
+        <h2>My Work
+          <p>
+            Here are projects I am currently working on or have completed. These includes Capstone projects from Tech Elevator and side projects I have worked on.
+          </p>
+        </h2>
         <div class="work__boxes">
 
           <!-- Each div with the work__box class is a project. -->
 
           <div class="work__box">
             <div class="work__text">
-              <h3>Portfolio Template</h3>
-              <p>
-                A free Open Source Portfolio for anyone to use for free.
-              </p>
-              <ul class="work__list">
-                <li>HTML</li>
-                <li>SCSS</li>
-                <li>JavaScript</li>
-                <li>Parcel</li>
-              </ul>
 
           </div>
 
           <div class="work__box">
             <div class="work__text">
-              <h3>Calculator</h3>
+              <h3>Meal Planner Website</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
-                eius.
+                A full-stack website using a PostgreSQL database, Vue.js framework, and Java.
+                The website was designed to be user-friendly and to make meal planning easier for users.
+                Users can add items to their grocery lists from the recipe ingredients and easily add their
+                own recipes to the website to share their favorites!
               </p>
-              <ul class="work__list">
-                <li>React</li>
-                <li>Next.js</li>
-                <li>Node</li>
-                <li>MongoDB</li>
-              </ul>
 
-              <div class="work__links">
-                <a href="#" class="link__text">
-                  Visit Site <span>&rarr;</span>
-                </a>
-                <a href="#">
-                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
-                </a>
-              </div>
             </div>
-            <div class="work__image-box">
-              <img src="./images/project-2.png" class="work__image" alt="Project 1" />
+            <div id="image-container">
+            <div class="work__image-box" class="sage_photo" >
+              <img src="./images/Sage-1.png" class="sage_photo" alt="Project 1" />
             </div>
+          </div>
+          <div class="work__links">
+            <a href="#" class="link__text">
+              Visit Site <span>&rarr;</span>
+            </a>
+            <a href="#">
+              <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+            </a>
+          </div>
           </div>
 
           <div class="work__box">
             <div class="work__text">
-              <h3>Notificator</h3>
+              <h3>Vending Machine Project</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
-                eius.
+                A mini-capstone project using Java object-oriented programming. The application was created for a vending
+                machine to have a user make purchases and the vending machine owner to receive sales data.
               </p>
-              <ul class="work__list">
-                <li>React</li>
-                <li>Next.js</li>
-                <li>Node</li>
-                <li>MongoDB</li>
-              </ul>
+              <div id="image-container">
 
-              <div class="work__links">
-                <a href="#" class="link__text">
-                  Visit Site <span>&rarr;</span>
-                </a>
-                <a href="#">
-                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
-                </a>
-              </div>
-            </div>
             <div class="work__image-box">
-              <img src="./images/project-3.png" class="work__image" alt="Project 3" />
+              <img src="./images/vending-machine.png" class="work__image" alt="Vending Machine Project" />
             </div>
+              </div>
           </div>
         </div>
+        </div>
+
+        <div class="work__box">
+          <div class="work__text">
+            <h3>TEnmo Project</h3>
+            <p>
+              A server-side project using Spring Boot, SQL, and Java to create accounts and transfer money between each
+              account.
+            </p>
+            <div id="image-container">
+
+          <div class="work__image-box">
+            <img src="./images/vending-machine.png" class="work__image" alt="TEnmo Project" />
+          </div>
+            </div>
+        </div>
+      </div>
+      </div>
       </div>
     </section>
 
@@ -159,13 +158,12 @@
           <div class="about__text">
             <!-- Replace the below paragraph with info about yourself -->
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos id
-              nostrum illo harum blanditiis, tenetur eum suscipit cupiditate
-              in vel, ex quam quidem quos mollitia labore aut sunt eius
-              ratione molestiae fuga veniam facere similique voluptate.
+              I am Jackie Lee, a former educator and former Java coding bootcamp student at Tech Elevator. I have a Bachelor's Degree and a Master of Education in Teaching English as a Second Language from Duquesne University.
+
+As an English Second Language Teacher at Baldwin-Whitehall School District, I supported diverse language learners, developed and implemented a user-friendly classroom website, and incorporated various online learning applications into the curriculum. Creating my classroom website sparked my interest in web development and coding, and led me to enroll in Tech Elevator. My goal is to use the skills I have acquired from Tech Elevator to become a Computer Programmer and to continue to challenge myself.
             </p>
             <!-- Provide a link to your resume -->
-            <a href="#" class="btn">My Resume</a>
+            <a href="https://drive.google.com/file/d/1TMeriycQio5ORf_kru38B75PfR-D0M0p/view?usp=sharing" class="btn">My Resume</a>
           </div>
 
           <div class="about__photo-container">
