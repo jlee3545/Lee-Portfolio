@@ -75,7 +75,7 @@ body {
     font-weight: 400;
     color: var(--black-1);
     line-height: var(--line-height-normal);
-    background: var(--blue);
+    background: var(--white);
     overflow-x: hidden;
 }
 
@@ -206,7 +206,7 @@ a {
 
 button:focus,
 a:focus {
-    outline: 2px solid var(--purple);
+    outline: 2px solid var(--blue);
 }
 
 body:not(.user-is-tabbing) button:focus,
@@ -224,7 +224,7 @@ body:not(.user-is-tabbing) a:focus {
     padding: 1rem 4.2rem;
     text-decoration: none;
     color: inherit;
-    border: 1px solid  var(--purple);
+    border: 1px solid  var(--blue);
     font-weight: 400;
     border-radius: 2rem;
 
@@ -241,7 +241,7 @@ body:not(.user-is-tabbing) a:focus {
     top: 0;
     left: 0;
     right: 100%;
-    background: var(--pur);
+    background: var(--purple);
     height: 100%;
     z-index: -1;
     transition: all 0.2s cubic-bezier(1, 0.68, 0.16, 0.9);
