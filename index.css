@@ -526,11 +526,13 @@ h2 p{
     margin:2rem;
     display: flex;
     justify-content: center;
+    margin-left:0px;
 }
 
 .work__image-box img{
     border-radius: 2rem;
     margin: 0px;
+    margin-left:0px;
 }
 
 @media(min-width: 901px) {
