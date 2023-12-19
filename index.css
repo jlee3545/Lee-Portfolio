@@ -100,6 +100,7 @@ body {
     .row {
         padding: 0 var(--gutter-normal);
     }
+
 }
 
 @media(max-width: 600px) {
@@ -133,7 +134,11 @@ h3 {
     color: var(--darkPurple);
 }
 
-.heading-primary {
+.heading-primary.fade-in-text {
+    font-family: Arial;
+    font-size: 150px;
+    animation: fadeIn 5s;
+  } {
     line-height: 1;
     font-size: var(--font-size-huge);
     font-weight: 400;
@@ -273,7 +278,7 @@ body:not(.user-is-tabbing) a:focus {
 
 .btn--pink:hover,
 .btn--pink:focus {
-    background: transparent;
+    background: purple;
 }
 
 .link__text {
@@ -683,3 +688,8 @@ h2 p{
 #meal-planner{
     margin-bottom: 5rem;
 }
+
+.fade-in-text {
+    font-size: 10rem;
+    animation: fadeIn 5s;
+  }
