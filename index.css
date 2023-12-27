@@ -252,7 +252,7 @@ body:not(.user-is-tabbing) a:focus {
     top: 0;
     left: 0;
     right: 100%;
-    background: var(--purple);
+    color: rgb(225, 208, 245);
     height: 100%;
     z-index: -1;
     transition: all 0.2s cubic-bezier(1, 0.68, 0.16, 0.9);
@@ -261,7 +261,7 @@ body:not(.user-is-tabbing) a:focus {
 .btn:hover::after,
 .btn:focus::after {
     right: 0;
-    background: var(--purple);
+    background-color: rgb(225, 208, 245);
     border-radius: 2rem;
 
 }
@@ -278,7 +278,8 @@ body:not(.user-is-tabbing) a:focus {
 
 .btn--pink:hover,
 .btn--pink:focus {
-    background: purple;
+    background-color: rgb(225, 208, 245);
+    color:#000;
 }
 
 .link__text {
@@ -310,7 +311,7 @@ body:not(.user-is-tabbing) a:focus {
 .link__text:hover::after,
 .link__text:focus:after {
     right: 0;
-    background: var(--purple);
+    color: rgb(225, 208, 245);
 }
 
 .link__text span {
@@ -411,13 +412,13 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .nav__link:hover {
-    color: var(--purple);
+    color: rgb(225, 208, 245);
 }
 
 .nav__link:hover::after {
     right: 0;
     height: 2px;
-    background: var(--purple);
+    color: rgb(225, 208, 245);
 }
 
 /* --------------------------------------- */
