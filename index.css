@@ -533,6 +533,7 @@ h2 p{
     display: flex;
     justify-content: center;
     margin-left:0px;
+    flex-wrap: wrap;
 }
 
 .work__image-box img{
