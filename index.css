@@ -538,7 +538,7 @@ h2 p{
 }
 
 .work__image-box img{
-    border-radius: 2rem;
+    border-radius: .25rem;
     margin: 0px;
     margin-left:0px;
 }
@@ -694,5 +694,5 @@ h2 p{
 
 .fade-in-text {
     font-size: 10rem;
-    animation: fadeIn 5s;
+    animation: fadeIn 10s;
   }
