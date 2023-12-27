@@ -710,7 +710,7 @@ h2 p{
 #skill-container{
     display: flex;
     align-content: center;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 
@@ -724,5 +724,9 @@ h2 p{
 
 .icon-pic{
     align-content: flex-end;
+}
+
+#skills{
+    background-color: #00000063;;
 }
 
