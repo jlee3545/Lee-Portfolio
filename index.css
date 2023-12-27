@@ -695,4 +695,34 @@ h2 p{
 .fade-in-text {
     font-size: 10rem;
     animation: fadeIn 8s;
-  }
+}
+
+.icon{
+    height: auto;
+    width:8rem;
+    margin:     1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+#skill-container{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#icon-text p{
+    text-align: center;
+}
+
+.icon img{
+    height: 8rem;
+}
+
+.icon-pic{
+    align-content: flex-end;
+}
+
