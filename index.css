@@ -107,6 +107,8 @@ body {
     .row {
         padding: 0 var(--gutter-small);
     }
+
+
 }
 
 section {
@@ -114,11 +116,13 @@ section {
     border-bottom: var(--border-light);
 }
 
+
 img {
     object-fit: contain;
     max-width: 100%;
     border:#000;
     border-width: 2rem;
+
 }
 
 /* --------------------------------------- */
@@ -541,6 +545,7 @@ h2 p{
     border-radius: .25rem;
     margin: 0px;
     margin-left:0px;
+    width: 80rem;
 }
 
 @media(min-width: 901px) {
@@ -587,7 +592,7 @@ h2 p{
 /* --------------------------------------- */
 
 .about{
-    background-color: #00000063;;
+    background-color: #0000002c;;
 }
 
 .about__content {
@@ -685,7 +690,17 @@ h2 p{
     .footer {
         padding: var(--gutter-medium) 0;
     } 
+
+
 }
+
+@media only screen and (max-width:600px){
+    #skill-container{
+        width: 90vw;
+        margin-left: 12rem;
+    }
+}
+
 
 
 #meal-planner{
@@ -712,9 +727,18 @@ h2 p{
     align-content: center;
     justify-content: space-around;
     flex-wrap: wrap;
+    width: 60vw;
+    margin-left: 0px;
+    padding-top: 2rem;
+    border-radius: 1rem;
+    margin-top: 3rem;
 }
 
-#icon-text p{
+.icon-text p{
+    text-align: center;
+}
+
+.icon h2{
     text-align: center;
 }
 
@@ -727,6 +751,32 @@ h2 p{
 }
 
 #skills{
-    background-color: #00000063;;
+    display: flex;
+    justify-content: center;
 }
+
+#cert h2{
+    text-align: center;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+#cert h2::after{
+    display: flex;
+    justify-content: center;
+    background:transparent;
+    margin-bottom: 0px;
+}
+
+#icon-cert{
+    display: flex;
+    justify-content: center;
+}
+
+#icon-div{
+    margin-top: 1rem;
+}
+
+
 
